@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+        <title> First JS quiz app </title>
+    </head>
+<!-- Pseudo code 
+1. Create shapes 
+2. design engine 
+3. play game  -->
+
+    <body> 
+        <div class="top_board" >
+            <div class="top_board_child board1" >
+                <div class="info">* press space to start </div>
+            </div>
+            <div class="scoreboard" >
+                <div class="score_value" id="player1_score"> 0 </div>
+                <div class="score_value" id="player2_score"> 0 </div>
+            </div> 
+            <div class="top_board_child board2 " >
+                <div id="reset_score_btn"> reset score</div>
+            </div>
+        </div>
+
+        <div class="backdrop" id="backdrop_id">
+            
+            <div class="net"></div>
+
+            <div class="player_bar" id="player1" style="top:50%">
+            </div>
+            <div class="player_bar" id="player2" style="top:50%">
+            </div>
+            <div class="ball" id="ball_id" >
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+
+</html>

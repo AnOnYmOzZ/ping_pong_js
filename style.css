@@ -1,0 +1,87 @@
+.top_board{
+    margin: 0 auto;  /* vertical horizontal */
+    margin-top: 50px; 
+    width: 700px;     
+    height: 60px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.top_board_child{
+    /* background-color: red; */
+    width: 150px; 
+    height: 40px;
+}
+
+#reset_score_btn{
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+}
+.scoreboard{
+    width: 200px;     
+    height: 60px;
+    background-color: grey;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.score_value{
+    margin-top: 4px;
+    font-size: 48px;
+}
+
+.backdrop {
+    margin: 0 auto;  /* vertical horizontal */
+    margin-top: 5px; 
+    width: 60%; 
+    /* height: auto; /*it is not advisible to give div a height */
+    /*height: 80%; /* it is not advisible to give div a height */
+    height: 400px; /* it is not advisible to give div a height*/
+    border: 1px solid lightgrey;
+    background-color: black;
+    padding-bottom: 20px;
+
+    position: relative;
+}
+
+.net {
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 99%;
+    top: -1px;
+    border: 2px dotted aqua;
+}
+
+.player_bar {
+    position: absolute;
+    width: 5px;
+    height: 60px;
+    background-color: white;
+    top: 50%;
+}
+
+#player1 {
+    left: 3px; 
+}
+
+#player2 {
+    right: 3px; 
+}
+
+.ball{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    /* top: 40px; 
+    left: 20px; */
+}
